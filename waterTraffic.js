@@ -3,7 +3,7 @@ function calculateBill() {
   // Prompt the user for their water usage in litres and convert it to a number
   let waterUsageLitres = Number(prompt("Enter your water usage in litres:"));
 
-  // Define the billing tiers and rates in Rands per 1000 litres
+  // Define the billing tiers and rates in Pounds per 1000 litres
   let tier1Threshold = 6000; // Tier 1 threshold: 6,000 litres
   let tier1Rate = 1.50; // Tier 1 rate: £ 1.5 per 1000 litres
 
